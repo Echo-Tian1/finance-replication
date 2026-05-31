@@ -1,15 +1,17 @@
 # finance-replication
 
-CodeWhale skill for reproducing empirical finance papers.
+CodeWhale skill for reproducing empirical finance papers. From data cleaning to academic-grade charts — one skill, end-to-end.
 
 [中文](README.zh-CN.md)
 
 ## What it covers
 
+- **Data preprocessing** — CRSP/Compustat cleaning, winsorization, fiscal-year alignment, CRSP-Compustat merge (6-month lag)
 - **Cross-sectional asset pricing** — Fama-MacBeth, portfolio sorts, factor models
-- **Corporate finance** — panel fixed effects, DID, event studies
+- **Corporate finance** — panel fixed effects, DID / staggered DID, event studies
 - **ML in asset pricing** — neural networks, gradient boosting, random forests
 - **Volatility modeling** — GARCH / EGARCH
+- **Academic visualization** — publication-grade charts (CAR plots, portfolio bar charts, FM coefficient time series, correlation heatmaps) and regression tables with significance stars
 
 ## Quick install
 
@@ -29,7 +31,7 @@ This skill references:
 ## Companion Python packages
 
 ```bash
-pip install statsmodels linearmodels pyfixest arch yfinance pandas-datareader scikit-learn xgboost lightgbm pyportfolioopt famafrench wrds seaborn formulaic
+pip install statsmodels linearmodels pyfixest arch yfinance pandas-datareader scikit-learn xgboost lightgbm pyportfolioopt famafrench wrds seaborn matplotlib formulaic
 ```
 
 ## License
